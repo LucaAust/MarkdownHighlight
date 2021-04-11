@@ -1,0 +1,18 @@
+name: MarkdownHighlight
+version: 1.0
+description: Highlight your code with the famous highlight.js library.
+author: Luca Austelat
+homepage: https://github.com/LucaAust/MarkdownHighlight
+licence: BSD 3-Clause License
+
+forms:
+  fields:
+
+    theme:
+      type: select
+      label: theme
+      required: true
+      options:
+        default: Default
+        dracula: Dracula
+        stackoverflow-dark: Stackoverflow Dark
